@@ -1,0 +1,36 @@
+.AdminWrapper > div.AdminList{
+    width: 53%;
+}
+.AdminList  .filter{
+    padding-bottom: 10px;
+}
+.AdminList ul li{
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infosLeft{
+    display: flex;
+    flex-direction: column;
+}
+.infosLeft .title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.infosLeft .producteursName{
+    font-size: 14px;
+}
+.rowFilter{
+    display: flex;
+    justify-content: space-between;
+}
+.rowFilter form{
+    display: flex;
+}
+.rowFilter  .btn.add{
+    font-size: 30px;
+    font-weight: 200;
+}

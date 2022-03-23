@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Variables CSS */
+:root{
+  --primaryColor: #4d5c65;
+  --ctaBtn: #e74c3c;
+  --addColor: #3498db;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  font-family: 'Montserrat';
+  background: #F2F2F2;
+  padding-top: 74px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input[type=text], 
+textarea, 
+select{
+  padding: 15px;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 4px;
+  margin-right: 1%;
+  box-sizing: border-box;
+}
+h2{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.btn{
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: var(--ctaBtn);
   color: white;
+  font-weight: 700;
+  border: none;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 12px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn.add{
+    background: var(--addColor);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iconBtn{
+  cursor: pointer;
+  margin: 0 10px;
+}
+.field{
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
 }

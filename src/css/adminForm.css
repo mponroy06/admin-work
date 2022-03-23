@@ -1,0 +1,30 @@
+.AdminWrapper > div.AdminForm{
+    width: 40%;
+    background: white;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgb(224, 224, 224);
+    position: fixed;
+    right: 2%;
+    top: 100px;
+    height: calc(100vh - 166px);
+    overflow: scroll;
+}
+.AdminForm .field input,
+.AdminForm .field select,
+.AdminForm .field textarea{
+  flex: 0 0 99%;
+}
+.AdminForm .field.dbl input,
+.AdminForm .field.dbl select,
+.AdminForm .field.dbl textarea{
+  flex: 0 0 49%;
+}
+.AdminForm .btn{
+    float: right;
+    margin-right: 1%
+}
+.AdminForm .field.dbl textarea{
+    height: 100px;
+}
